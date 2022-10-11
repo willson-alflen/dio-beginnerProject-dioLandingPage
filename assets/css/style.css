@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 400;
+
+  max-width: 1440px;
+
+  background-color: black;
+}
+
+.banner {
+  background: url("../images/banner.png"),
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(49, 168, 221, .2),
+      rgba(0, 0, 0, 0.6)
+    );
+
+   height: 600px;
+   padding-top: 60px;
+   border-bottom: 1px solid #33A8DB80;
+}
+
+.banner-content {
+  text-align: center;
+  width: 600px;
+}
+
+.banner-content .logo {
+   display: flex;
+
+   width: 268px;
+   height: 268px;
+
+   background: rgba(0, 0, 0, 0.2);
+
+   border-radius: 50%;
+
+   margin-bottom: 16px;
+}
+
+.banner-content .logo img {
+   width: 248px;
+   height: 241px;
+   margin: auto;
+}
+
+.banner-content h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  line-height: 47px;
+  background: -webkit-linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px;
+}
+
+.banner-content p {
+  width: 514px;
+
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 23px;
+  text-align: center;
+
+  margin-bottom: 16px;
+
+}
+
+.banner-content button {
+  width: 326px;
+  background: transparent;
+  border-image: linear-gradient(#3BA1CD, #1572B7);
+  border-image-slice: 10;
+
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 19px;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.21em;
+  color: #31A8DD;
+  font-size: 1rem;
+  font-weight: bold;
+
+  padding: 16px 32px;
+}
