@@ -8,24 +8,26 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 400;
+  font-size: 16px;
+  font-weight: 400;
 
   max-width: 1440px;
 
   background-color: black;
+  color: white;
 }
 
 .banner {
   background: url("../images/banner.png"),
     linear-gradient(
       rgba(0, 0, 0, 0.6),
-      rgba(49, 168, 221, .2),
+      rgba(49, 168, 221, 0.2),
       rgba(0, 0, 0, 0.6)
     );
 
-   height: 600px;
-   padding-top: 60px;
-   border-bottom: 1px solid #33A8DB80;
+  height: 600px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33a8db80;
 }
 
 .banner-content {
@@ -34,22 +36,22 @@ body {
 }
 
 .banner-content .logo {
-   display: flex;
+  display: flex;
 
-   width: 268px;
-   height: 268px;
+  width: 268px;
+  height: 268px;
 
-   background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
 
-   border-radius: 50%;
+  border-radius: 50%;
 
-   margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .banner-content .logo img {
-   width: 248px;
-   height: 241px;
-   margin: auto;
+  width: 248px;
+  height: 241px;
+  margin: auto;
 }
 
 .banner-content h1 {
@@ -70,18 +72,16 @@ body {
 
   font-size: 1.25rem;
   font-weight: 400;
-  color: #ffffff;
   line-height: 23px;
   text-align: center;
 
   margin-bottom: 16px;
-
 }
 
 .banner-content button {
   width: 326px;
   background: transparent;
-  border-image: linear-gradient(#3BA1CD, #1572B7);
+  border-image: linear-gradient(#3ba1cd, #1572b7);
   border-image-slice: 10;
 
   font-size: 16px;
@@ -91,9 +91,53 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.21em;
-  color: #31A8DD;
+  color: #31a8dd;
   font-size: 1rem;
   font-weight: bold;
 
   padding: 16px 32px;
+}
+
+section {
+  margin: 100px auto;
+}
+
+#course-content {
+  width: 800px;
+  text-align: center;
+}
+
+#course-content h2 {
+  color: #33a8db;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.21em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+#course-content .modules-list {
+  width: 535px;
+
+  margin: 24px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#course-content .modules-list .module {
+  width: 100%;
+  background-color: #252525;
+  border: 1px solid #33A8DB;
+  box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 57px;
+
+  padding: 16px;
+  margin: 10px 0;
+}
+
+#course-content .modules-list .module span{
+  color: #33A8DB;
 }
