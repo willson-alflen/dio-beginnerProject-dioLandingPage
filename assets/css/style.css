@@ -189,7 +189,20 @@ section {
   font-weight: 400;
 
   width: 800px;
+}
 
+footer {
+  text-align: center;
+  border-top: 1px solid #33a8db80;
+  border-bottom: 1px solid #33a8db80;
+
+  padding: 60px 0;
+}
+
+footer p a {
+  color: #33A8DB;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 
